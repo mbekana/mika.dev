@@ -25,7 +25,6 @@ export const caseStudies: CaseStudy[] = [
       "Draft abandonment dropped by 74%. Search response time fell from over 8 seconds to under 400ms. Seller listing completion rate more than doubled in the first month post-launch.",
     tags: ["Node", "Nuxt.js", "Marketplace", "Search", "UX/UI"],
     imageUrl: "/images/mitlist.png",
-    url: "https://mitlist.com",
     metrics: [
       { label: "Listing Completion", before: "42%", after: "76%" },
       { label: "Search Result LCP", before: "4.5s", after: "1.2s" },
