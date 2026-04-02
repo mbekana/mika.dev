@@ -20,10 +20,10 @@ export const About = () => {
         </div>
         <div className={styles.column}>
           <p className={styles.paragraph}>
-            I've shipped production systems at scale — identity verification platforms, financial operations dashboards, and enterprise design systems. 
+            I've shipped production systems at scale, including identity verification platforms, financial operations dashboards, and enterprise design systems.
           </p>
           <p className={styles.paragraph}>
-            I work best in teams that have specific opinions on architecture, performance budgets, and failure handling — and defend them.
+            I work best in teams that have specific opinions on architecture, performance budgets, and failure handling; and then defend them.
           </p>
         </div>
       </div>
