@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Hero } from '@/features/hero/Hero';
 import { About } from '@/features/about/About';
 import { CaseStudiesList } from '@/features/case-studies/CaseStudiesList';
@@ -10,7 +11,7 @@ export default function Home() {
         <div className={styles.logo}>mika.dev</div>
         <nav className={styles.nav}>
           <a href="#case-studies" className={styles.navLink}>Case Studies</a>
-          <a href="#architecture" className={styles.navLink}>Architecture</a>
+          <Link href="/architecture" className={styles.navLink}>Architecture</Link>
         </nav>
       </header>
 
